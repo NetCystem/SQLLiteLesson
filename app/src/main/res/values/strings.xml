@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SQLLiteLesson</string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="password">Password:</string>
+    <string name="login">Login:</string>
+    <string name="welcome">WELCOME!</string>
+</resources>

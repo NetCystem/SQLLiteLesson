@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.macbook.sqllitelesson.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="110dp"
+        android:id="@+id/login_form">
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:hint="@string/login"
+            android:id="@+id/login"/>
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:hint="@string/password"
+            android:id="@+id/paswword"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:hint="@string/submit"
+            android:id="@+id/submit"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_form"
+        android:layout_marginStart="20dp"
+        android:hint="@string/register"
+        android:id="@+id/register"/>
+
+
+
+
+</RelativeLayout>
